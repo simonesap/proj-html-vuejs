@@ -59,14 +59,19 @@ body {
     padding-right: 10px;
 }
 
+.p-y-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .p-y-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.p-y-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.p-y-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .p-x-5 {
@@ -103,6 +108,10 @@ body {
 
 .bg-jungle-green {
     background-color: $jungle-green;
+}
+
+.bg-gallery {
+    background-color: $gallery;
 }
 
 /* Color */
@@ -210,8 +219,16 @@ body {
     align-self: center;
 }
 
+.justify_self_center {
+    justify-self: center;
+}
+
 .justify_center {
     justify-content: center;
+}
+
+.justify_start {
+    justify-content: start;
 }
 
 .justify_between {
@@ -251,6 +268,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.flexBetween_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .flexCenter {
@@ -359,8 +382,16 @@ body {
     text-align: center;
 }
 
+.text_start {
+    text-align: start;
+}
+
 .listTypeNone {
     list-style-type: none;
+}
+
+.vertical_middle {
+    vertical-align: middle;
 }
 
 /* Flip card */

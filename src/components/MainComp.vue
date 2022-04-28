@@ -48,23 +48,75 @@
         </div>
     </div>
 
-    <div class="container-default">
-        <div></div>
+    <div class="container-default flexBetween_2 p-y-50 ">
         <div>
-            <div class="text_center p_50">
+            <img src="../assets/img/work-element/about-us-03-image-01.png" alt="">
+        </div>
+        <div class="d_flex flex_col w_50">
+            <div class="text_start">
                 <span class="text_uppercase">dream with <span class="fw_b">maxcoach</span></span>
                 <h2 class="text_capital fs_8">construct a <span class="text_capital text_jungle">stunning</span> career perspective</h2>
             </div>
-            <div class=" dropdown">
-                <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
-                    <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                    <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
-                </h4>
-                <div class="dropdown-content">
-                    <p></p>
+            <div class="justify_start">
+                <div class=" dropdown">
+                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
+                        <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
+                    </h4>
+                    <div class="dropdown-content">
+                        <p>
+                            MaxCoach supports the act of teaching and learning on multiple
+                            platforms like online or offline via meterial downloads.
+                            We know things aren't supposed to be devoured in a short time, you
+                            can always access our knowledge base from any device.
+                        </p>
+                    </div>
+                </div>
+                <div class=" dropdown">
+                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
+                        <span class="text_capital">multiple course partecipation </span>at the <span class="text_capital">same time</span>
+                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
+                    </h4>
+                    <div class="dropdown-content">
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class=" dropdown">
+                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
+                        <span class="text_capital">track study progress & deliver prompt feedback </span>
+                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
+                    </h4>
+                    <div class="dropdown-content">
+                        <p>
+                            
+                        </p>
+                    </div>
                 </div>
             </div>
             
+        </div>
+    </div>
+
+    <div id="divider" class="p_50 bg-gallery flexRowWrap">
+        <div class="container-default flexBetween">
+            <div class="text_center">
+                <span class="fs_7 text_jungle fw_b">1.926</span>
+                <div class="text_uppercase fw_b">finished sessions</div>
+            </div>
+            <div class="text_center">
+                <span class="fs_7 text_jungle fw_b">3.092+</span>
+                <div class="text_uppercase fw_b">enrolled learners</div>
+            </div>
+            <div class="text_center">
+                <span class="fs_7 text_jungle fw_b">200</span>
+                <div class="text_uppercase fw_b">online instructors</div>
+            </div>
+            <div class="text_center">
+                <span class="fs_7 text_jungle fw_b">100%</span>
+                <div class="text_uppercase fw_b">satisfaction rate</div>
+            </div>
             
         </div>
     </div>
@@ -92,6 +144,10 @@ export default {
 
     #drop {
         @include paddingButton;
+    }
+
+    #divider {
+        height: 150px;
     }
    
 
