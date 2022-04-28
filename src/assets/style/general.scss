@@ -1,0 +1,390 @@
+@import './variabili.scss';
+@import './mixin.scss';
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container-default {
+    width: 80%;
+    margin: 0 auto;
+}
+.container-default-2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Padding */
+.p_10 {
+    padding: 10px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_t_20 {
+    padding-top: 20px;
+}
+
+.p-y-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-y-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p-x-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.p-x-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p-x-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p_50 {
+    margin: 50px auto;
+}
+
+/* Background */
+.bg-custom-blue {
+    background-color: $dark-blue;
+}
+
+.bg-custom-dark-blue {
+    background-color: $dark-blue-dark;
+}
+
+.bg-custom-black {
+    background-color: black;
+}
+
+/* Color */
+.text_white {
+    color: white;
+}
+
+.text_red {
+    color: red;
+}
+
+.text_gold {
+    color: goldenrod;
+}
+
+/* Height */
+.h_25 {
+    height: 25%;
+}
+
+.h_50 {
+    height: 50%;
+}
+
+.h_75 {
+    height: 75%;
+}
+
+.h_100 {
+    height: 100%;
+}
+
+.h-10-vh {
+    height: 10vh;
+}
+
+.h-20-vh {
+    height: 20vh;
+}
+
+.h-40-vh {
+    height: 40vh;
+}
+
+.h-50-vh {
+    height: 50vh;
+}
+
+.h-90-vh {
+    height: 90vh;
+}
+
+/* Width */ 
+.w_25 {
+    width: 25%;
+}
+
+.w_50 {
+    width: 50%;
+}
+
+.w_75 {
+    width: 75%;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+/* Display */
+.d_flex {
+    display: flex;
+}
+
+.d_none {
+    display: none;
+}
+
+.d_block {
+    display: block;
+}
+
+/* Flex */
+.align_center {
+    align-items: center;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.flex_col {
+    flex-direction: column;
+}
+
+.flex_row {
+    flex-direction: row;
+}
+
+.flexRowWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexColWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Position */
+.p_relative {
+    position: relative;
+}
+
+.p_absolute {
+    position: absolute;
+}
+
+/* Border */
+.b_rounded_1 {
+    border-radius: 5px;
+}
+
+.b_rounded_2 {
+    border-radius: 10px;
+}
+
+.b_rounded_3 {
+    border-radius: 15px;
+}
+
+.b_rounded_4 {
+    border-radius: 20px;
+}
+
+.b_rounded_5 {
+    border-radius: 25px;
+}
+
+.b-1-w {
+    border: 1px solid white;
+}
+
+.b_none {
+    border: none;
+}
+
+/* Font */
+.fw_b {
+    font-weight: bold;
+}
+
+.fs_1 {
+    font-size: 0.8;
+} 
+
+.fs_2 {
+    font-size: 1em;
+} 
+
+.fs_3 {
+    font-size: 1.2em;
+} 
+
+.fs_4 {
+    font-size: 1.4em;
+} 
+
+.fs_5 {
+    font-size: 1.6em;
+} 
+
+.fs_6 {
+    font-size: 1.8em;
+} 
+
+.fs_7 {
+    font-size: 2em;
+} 
+
+.fs_8 {
+    font-size: 2.4em;
+} 
+
+/* Text Trasform */
+.text_uppercase {
+    text-transform: uppercase;
+}
+
+.text_lowercase {
+    text-transform: lowercase;
+}
+
+.text_capital {
+    text-transform: capitalize;
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.listTypeNone {
+    list-style-type: none;
+}
+
+/* Flip card */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* Dropdown */
+  
+  /* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
