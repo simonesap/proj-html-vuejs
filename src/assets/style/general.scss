@@ -9,6 +9,11 @@ body {
 
 /* Container */
 .container-default {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-default-1 {
     width: 80%;
     margin: 0 auto;
 }
@@ -26,8 +31,32 @@ body {
     padding: 20px;
 }
 
+.p_t_10 {
+    padding-top: 10px;
+}
+
 .p_t_20 {
     padding-top: 20px;
+}
+
+.p_t_30 {
+    padding-top: 30px;
+}
+
+.p_t_40 {
+    padding-top: 40px;
+}
+
+.p_t_50 {
+    padding-top: 50px;
+}
+
+.p_s_20 {
+    padding-left: 20px;
+}
+
+.p_e_10 {
+    padding-right: 10px;
 }
 
 .p-y-30 {
@@ -72,6 +101,10 @@ body {
     background-color: black;
 }
 
+.bg-jungle-green {
+    background-color: $jungle-green;
+}
+
 /* Color */
 .text_white {
     color: white;
@@ -83,6 +116,14 @@ body {
 
 .text_gold {
     color: goldenrod;
+}
+
+.text_jungle {
+    color: $jungle-green;
+}
+
+.text_mulled-wine {
+    color: $mulled-wine;
 }
 
 /* Height */
@@ -122,6 +163,14 @@ body {
     height: 90vh;
 }
 
+.h-95-vh {
+    height: 95vh;
+}
+
+.h-100-vh {
+    height: 100vh;
+}
+
 /* Width */ 
 .w_25 {
     width: 25%;
@@ -157,6 +206,10 @@ body {
     align-items: center;
 }
 
+.align_self_center {
+    align-self: center;
+}
+
 .justify_center {
     justify-content: center;
 }
@@ -184,6 +237,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.flexColAJCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .flexBetween {
@@ -241,6 +301,10 @@ body {
 .fw_b {
     font-weight: bold;
 }
+
+.fs_0 {
+    font-size: 0.6;
+} 
 
 .fs_1 {
     font-size: 0.8;
@@ -388,3 +452,5 @@ body {
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+  
