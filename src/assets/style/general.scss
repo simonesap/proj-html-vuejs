@@ -36,9 +36,14 @@ body {
 }
 
 .p_70 {
-    padding: 70px auto;
+    padding: 70px;
 }
 
+.p_100 {
+    padding: 100px;
+}
+
+/* Padding-top */
 .p_t_5 {
     padding-top: 5px;
 }
@@ -63,6 +68,24 @@ body {
     padding-top: 50px;
 }
 
+.p_t_60 {
+    padding-top: 60px;
+}
+
+.p_t_150 {
+    padding-top: 150px;
+}
+
+.p_t_200 {
+    padding-top: 200px;
+}
+
+/* Padding Bottom */
+.p_b_70 {
+    padding-bottom: 70px;
+}
+
+/* Padding left */
 .p_s_5 {
     padding-left: 5px;
 }
@@ -75,12 +98,19 @@ body {
     padding-left: 20px;
 }
 
+/* Padding right */
 .p_e_5 {
     padding-right: 5px;
 }
 
 .p_e_10 {
     padding-right: 10px;
+}
+
+/* Padding top-bottom */
+.p-y-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .p-y-10 {
@@ -108,11 +138,17 @@ body {
     padding-bottom: 50px;
 }
 
-.p-y-5{
-    padding-top: 5px;
-    padding-bottom: 5px;
+.p_y_120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+.p_y_150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* Padding left-right */
 .p-x-5 {
     padding-left: 5px;
     padding-right: 5px;
@@ -154,12 +190,12 @@ body {
 }
 
 /* Margin */
-.m_t_0 {
-    margin-top: 0;
+.m_10 {
+    margin: 10px;
 }
 
-.m_r_0 {
-    margin-right: 50px;
+.m_20 {
+    margin: 20px;
 }
 
 .m_50 {
@@ -168,6 +204,70 @@ body {
 
 .m_70 {
     margin: 70px;
+}
+
+.m_100 {
+    margin: 100px;
+}
+
+/* Margin y */
+
+.m_y_5 {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.m_y_10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.m_y_15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.m_y_20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.m_y_30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Margin top */
+.m_t_0 {
+    margin-top: 0;
+}
+
+.m_t_10 {
+    margin-top: 10;
+}
+
+.m_t_20 {
+    margin-top: 20;
+}
+
+.m_t_30 {
+    margin-top: 30;
+}
+
+.m_t_100 {
+    margin-top: 100;
+}
+
+.m_t_200 {
+    margin-top: 200;
+}
+
+/* Margin right */
+.m_e_0 {
+    margin-right: 0;
+}
+
+.m_e_5 {
+    margin-right: 5px;
 }
 
 /* Background */
@@ -229,6 +329,7 @@ body {
     height: 100%;
 }
 
+/* Height Vh */
 .h-10-vh {
     height: 10vh;
 }
@@ -260,6 +361,14 @@ body {
 /* Width */ 
 .w_25 {
     width: 25%;
+}
+
+.w_30 {
+    width: 30%;
+}
+
+.w_35 {
+    width: 35%;
 }
 
 .w_50 {
@@ -294,6 +403,10 @@ body {
 /* Flex */
 .align_center {
     align-items: center;
+}
+
+.align_end {
+    align-items: flex-end;
 }
 
 .align_self_center {

@@ -230,7 +230,7 @@
                     </div>
                 </li>
             </ul>
-            <div class="m_70 flexRowWrap">
+            <div class="m_70 flexRowWrap p_b_70">
                 <button class="p-y-15 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
                         style="cursor: pointer;">View all courses 
                         <i class="vertical_middle p_s_5 fa-solid fa-arrow-right-long"></i>
@@ -239,6 +239,190 @@
 
         </div>
 
+    </div>
+
+    <div id="sec-3" class="container-default flexBetween_2 p_y_120">
+
+        <div class="d_flex flex_col w_35">
+            <div class="text_start">
+                <span class="text_uppercase">why hesitate to register?</span>
+                <h2 class="text_capital fs_8 fw_b">learn at your own <span class="text_capital text_jungle">pace</span></h2>
+            </div>
+            <ul id="ul-check-sec-3" class="flexColWrap">
+                <li class="p-y-10">
+                    <i class="text_jungle fw_b fa-solid fa-check p_e_10"></i>
+                    <span>Select & customize courses to your preferences</span>
+                </li>
+                <li class="p-y-10">
+                    <i class="text_jungle fw_b fa-solid fa-check p_e_10"></i>
+                    <span>Change the tutor and make arrangements</span>
+                </li>
+                <li class="p-y-10">
+                    <i class="text_jungle fw_b fa-solid fa-check p_e_10"></i>
+                    <span>Participate in events to join others</span>
+                </li>
+                <li class="p-y-10">
+                    <i class="text_jungle fw_b fa-solid fa-check p_e_10"></i>
+                    <span>Get the desired certificate delivered at house</span>
+                </li>
+                <li class="p-y-30">
+                    <button class="p-y-20 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            style="cursor: pointer;">Get started for free</button>
+                </li>
+            </ul>
+        </div>
+        <div  class="flexBetween_2 align_end p_relative">
+            <div id="img-sec-3" class="" >
+               
+            </div>
+            <div class="align_self_center p_t_60">
+                <img src="../assets/img/work-element/maxcoach-shape-05.png" alt="">
+            </div>
+            <div class="p_absolute">
+                 <img class="" style="margin-left: 100px; margin-bottom: 50px" src="../assets/img/work-element/home-5-image-01.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sec-3-part-2" class="container-default-1 flexBetween_2 p_y_120">
+
+        <div  class="flexBetween_2 align_end p_relative">
+            <div class="align_self_center">
+                <img style="padding-bottom: 70px" src="../assets/img/work-element/maxcoach-shape-01.png" alt="">
+            </div>
+            <div style="margin-left: -50px" id="img-sec-3" class="" >
+               
+            </div>
+            <div class="align_self_center p_t_60">
+                <img src="../assets/img/work-element/maxcoach-shape-07.png" alt="">
+            </div>
+            <div class="p_absolute">
+                 <img class="" style="margin-left: 250px; margin-bottom: 30px" src="../assets/img/work-element/home-5-image-02.png" alt="">
+            </div>
+        </div>
+
+        <div class="d_flex flex_col w_35">
+            <div class="text_start">
+                <span class="text_uppercase">what are you looking for?</span>
+                <h2 class="text_capital fs_8 fw_b">learn on your <span class="text_jungle">mobile</span> anytime!</h2>
+            </div>
+            <ul id="ul-check-sec-3" class="flexColWrap">
+                <li class="p-y-10">
+                    <p>
+                        Save lessons for later and revise or write notes at any 
+                        time and on multiple devices on your way.
+                        Never interfere with activities of enjoyment or 
+                        other precious moments.
+                    </p>
+                </li>
+                <li class="p-y-30">
+                    <button class="p-y-20 p-x-50 text_capital b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            style="cursor: pointer;">downoload our app</button>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div id="sec-3-part-3" class="container-default-1 p-y-10">
+        <div class="text_center">
+            <span class="text_uppercase">get in contact now</span>
+            <h2 class="text_capital fs_8 fw_b">upcoming <span class="text_jungle text_capital">events</span></h2>
+        </div>
+        <ul id="ul-events-sec-3" class="flexRowWrap">
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> Texas, US</span>
+                        <h4 class="text_capital fw_b">storytelling workshop</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">22</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">nov</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> New York, US</span>
+                        <h4 class="text_capital fw_b">Painting Art Contest 2020</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">10</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">oct</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> Hamburg, Germany</span>
+                        <h4 class="text_capital fw_b">international art fair 2020</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">23</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">nov</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> Illinois, US</span>
+                        <h4 class="text_capital fw_b">street performance: call for artist</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">15</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">dec</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> Illinois, US</span>
+                        <h4 class="text_capital fw_b w_85">consumer food safety education conference</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">22</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">jul</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+            <li class="flexBetween m_10 p-y-20">
+                <div class="container-default-2 flexBetween">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot m_e_5"></i> Dubai</span>
+                        <h4 class="text_capital fw_b w_85">how meditation improve your mental health?</h4>
+                    </div>
+                    <div class="flexColWrap align_center">
+                        <span class="text_uppercase fw_b fs_7 text_jungle">12</span>
+                        <span class="text_uppercase m_y_5 fs_0 fw_b">aug</span>
+                        <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                                style="cursor: pointer;">Get ticket</button>
+                    </div>
+                </div>
+            </li>
+
+            <div class="p-y-50">
+                <h3>
+                    Exited about our event? <span class="text_jungle"> View all events </span>
+                    <i class="text_jungle fa-solid fa-arrow-right-long"></i>
+                </h3>
+            </div>
+        </ul>
     </div>
     
     
@@ -273,8 +457,10 @@ export default {
     }
 
     #sec-2 {
-        background-image: url('../assets/img/general/wave.svg');
+        background-image: url('../assets/img/general/vector-3.png');
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .card {
@@ -310,6 +496,25 @@ export default {
 
     #image_6 {
         background-image: url('../assets/img/work-element/stock-full-hd-05-480x298.jpg');
+    }
+
+    #img-sec-3 {
+        background-image: url('../assets/img/general/underlay-shape-grey.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        width: 450px;
+        height: 500px;
+    }
+
+    #ul-check-sec-3,
+    #ul-events-sec-3 {
+        @include reset-list;
+    }
+
+    #ul-events-sec-3 li {
+        width: calc((100% / 2) - 30px);
+        background-color: $g-gray;
     }
    
 
