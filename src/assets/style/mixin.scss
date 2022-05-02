@@ -116,3 +116,7 @@
 @mixin justifyEnd {
     justify-content: end;
 }
+
+@mixin justifySelfEnd {
+    justify-self: end;
+}

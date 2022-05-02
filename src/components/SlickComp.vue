@@ -2,221 +2,28 @@
 
   <div class="">
 
-    <VueSlickCarousel class="" :arrows="true" :dots="true" v-bind="slickOptions">
-      <div>
+    <VueSlickCarousel class="" :key="el" :arrows="true" :dots="true" v-bind="slickOptions">
+      <div v-for="el in 4" :key="el">
      
         <ul id="slick-ul-1" class="flexBetween align_center">
           
-          <li class="p_100 justify_end d_flex flex_col">
+          <li class="p_100 justify_end d_flex flex_col"
+                v-for="(element,index) in mediaCardArray" :key="index">
             <div class="d_flex justify_center p_relative">
               <img class="img-circle b_rounded_circle p_absolute m_t_100" 
-                  :src="mediaImgArray[counterImg].mina.img" alt=""> 
+                  :src="element.img" alt=""> 
             </div>
             
-            <div id="back" class="p_50 m_t_100 ">
+            <div id="back" class="p_50 m_t_100">
               <p class="m_t_100  p_relative text_center">
-                <!-- I am free to learn at my own pace, follow my own schedule and choosethe subject like. Great study portal for people like me. -->
-                  {{mediaImgArray[counterImg].mina.description}}
+                  {{element.description}}
               </p>
-              <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].mina.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].mina.position}}</div>
-            </div>
-          </li>
-
-          <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].madley.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100  p_relative text_center">
-                <!-- MaxCoach is my best choice. Their tutors are smart and professional when dealing with students. -->
-                  {{mediaImgArray[counterImg].madley.description}}
-              </p>
-              <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].madley.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].madley.position}}</div>
-            </div>
-          </li>
-
-          <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].luvic.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100 p_relative text_center">
-                <!-- I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation. -->
-                  {{mediaImgArray[counterImg].luvic.description}}
-              </p>
-              <h4 class="text_center text_uppercase">{{mediaImgArray[counterImg].luvic.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].luvic.position}}</div>
+              <h4 class="text_uppercase text_center">{{element.name}}</h4>
+              <div class="text_capital text_center">{{element.position}}</div>
             </div>
           </li>
         </ul>
-      </div>
-      <div>
-     
-        <ul id="slick-ul-1" class="flexBetween align_center">
-
-           <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].luvic.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100 p_relative text_center">
-                <!-- I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation. -->
-                  {{mediaImgArray[counterImg].luvic.description}}
-              </p>
-              <h4 class="text_center text_uppercase">{{mediaImgArray[counterImg].luvic.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].luvic.position}}</div>
-            </div>
-          </li>
-
-          <li class="p_100 justify_end d_flex flex_col">
-              <div class="d_flex justify_center p_relative">
-                <img class="img-circle b_rounded_circle p_absolute m_t_100" 
-                    :src="mediaImgArray[counterImg].mina.img" alt=""> 
-              </div>
-              
-              <div id="back" class="p_50 m_t_100 ">
-                <p class="m_t_100  p_relative text_center">
-                  <!-- I am free to learn at my own pace, follow my own schedule and choosethe subject like. Great study portal for people like me. -->
-                    {{mediaImgArray[counterImg].mina.description}}
-                </p>
-                <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].mina.name}}</h4>
-                <div class="text_capital text_center">{{mediaImgArray[counterImg].mina.position}}</div>
-              </div>
-          </li>
-
-          <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].madley.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100  p_relative text_center">
-                <!-- MaxCoach is my best choice. Their tutors are smart and professional when dealing with students. -->
-                  {{mediaImgArray[counterImg].madley.description}}
-              </p>
-              <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].madley.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].madley.position}}</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-     
-        <ul id="slick-ul-1" class="flexBetween align_center">
-
-            <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].madley.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100  p_relative text_center">
-                <!-- MaxCoach is my best choice. Their tutors are smart and professional when dealing with students. -->
-                  {{mediaImgArray[counterImg].madley.description}}
-              </p>
-              <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].madley.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].madley.position}}</div>
-            </div>
-          </li>
-
-           <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].luvic.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100 p_relative text_center">
-                <!-- I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation. -->
-                  {{mediaImgArray[counterImg].luvic.description}}
-              </p>
-              <h4 class="text_center text_uppercase">{{mediaImgArray[counterImg].luvic.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].luvic.position}}</div>
-            </div>
-          </li>
-
-          <li class="p_100 justify_end d_flex flex_col">
-              <div class="d_flex justify_center p_relative">
-                <img class="img-circle b_rounded_circle p_absolute m_t_100" 
-                    :src="mediaImgArray[counterImg].mina.img" alt=""> 
-              </div>
-              
-              <div id="back" class="p_50 m_t_100 ">
-                <p class="m_t_100  p_relative text_center">
-                  <!-- I am free to learn at my own pace, follow my own schedule and choosethe subject like. Great study portal for people like me. -->
-                    {{mediaImgArray[counterImg].mina.description}}
-                </p>
-                <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].mina.name}}</h4>
-                <div class="text_capital text_center">{{mediaImgArray[counterImg].mina.position}}</div>
-              </div>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-     
-        <ul id="slick-ul-1" class="flexBetween align_center">
-
-          <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].luvic.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100 p_relative text_center">
-                <!-- I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation. -->
-                  {{mediaImgArray[counterImg].luvic.description}}
-              </p>
-              <h4 class="text_center text_uppercase">{{mediaImgArray[counterImg].luvic.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].luvic.position}}</div>
-            </div>
-          </li>
-
-          <li class="p_100 justify_end d_flex flex_col">
-              <div class="d_flex justify_center p_relative">
-                <img class="img-circle b_rounded_circle p_absolute m_t_100" 
-                    :src="mediaImgArray[counterImg].mina.img" alt=""> 
-              </div>
-              
-              <div id="back" class="p_50 m_t_100 ">
-                <p class="m_t_100  p_relative text_center">
-                  <!-- I am free to learn at my own pace, follow my own schedule and choosethe subject like. Great study portal for people like me. -->
-                    {{mediaImgArray[counterImg].mina.description}}
-                </p>
-                <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].mina.name}}</h4>
-                <div class="text_capital text_center">{{mediaImgArray[counterImg].mina.position}}</div>
-              </div>
-          </li>
-
-          <li class="liCustom p_100 justify_end d_flex flex_col">
-            <div class="d_flex justify_center p_relative">
-              <img class="img-circle  b_rounded_circle p_absolute m_t_100"
-                  :src="mediaImgArray[counterImg].madley.img" alt="">
-            </div>
-            
-            <div id="back" class="p_50 m_t_100 ">
-              <p class="m_t_100  p_relative text_center">
-                <!-- MaxCoach is my best choice. Their tutors are smart and professional when dealing with students. -->
-                  {{mediaImgArray[counterImg].madley.description}}
-              </p>
-              <h4 class="text_uppercase text_center">{{mediaImgArray[counterImg].madley.name}}</h4>
-              <div class="text_capital text_center">{{mediaImgArray[counterImg].madley.position}}</div>
-            </div>
-          </li>
-
-        </ul>
+        
       </div>
      
     </VueSlickCarousel>
@@ -245,26 +52,25 @@ export default {
                 pauseOnDotsHover: true,
             },
             counterImg: 0,
-            mediaImgArray: [{
-              mina: {
+            mediaCardArray: [
+            {
                 name: 'mina hollace',
                 img: require('../assets/img/work-element/testimonial-avata-02.jpg'),
                 description: 'I am free to learn at my own pace, follow my own schedule and choosethe subject like. Great study portal for people like me.',
                 position: '/ Freelancer',
-              },
-              madley: {
+            },
+            { 
                 name:'madley pondor',
                 img: require('../assets/img/work-element/testimonial-avata-04.jpg'),
                 description:'MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
                 position: '/ IT specialist',
-              },
-              luvic: {
+            },
+            { 
                 name: 'luvic dubble',
                 img: require('../assets/img/work-element/testimonial-avata-01.jpg'),
                 description: 'I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.',
                 position: '/ private tutor',
-              }
-            }
+            },
           ]
          } 
         
@@ -284,7 +90,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import 'vue-slick-carousel/dist/vue-slick-carousel.css';
   // optional style for arrows & dots
 @import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
@@ -310,14 +116,11 @@ export default {
     #back {
       background-color: $white;
       width: 250px;
+      height: 200px
     }
 
     .justify_end {
       @include justifyEnd;
-    }
-
-    .liCustom {
-      height: 355px!important;
     }
 
 </style>
