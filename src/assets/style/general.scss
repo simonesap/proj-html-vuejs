@@ -1,6 +1,10 @@
 @import './variabili.scss';
 @import './mixin.scss';
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -112,6 +116,10 @@ body {
 
 .p_s_20 {
     padding-left: 20px;
+}
+
+.p_s_50 {
+    padding-left: 50px;
 }
 
 .p_s_70 {
@@ -273,6 +281,11 @@ body {
     margin-bottom: 30px;
 }
 
+.m_y_40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /* Margin top */
 .m_t_0 {
     margin-top: 0;
@@ -328,9 +341,25 @@ body {
     background-color: $gallery;
 }
 
+.bg-g-gray {
+    background-color: $g-gray;
+}
+
+.bg_black {
+    background-color: black;
+}
+
+.bg-custom-white {
+    background-color: $white;
+}
+
 /* Color */
 .text_white {
     color: white;
+}
+
+.pewter {
+    color: $pewter;
 }
 
 .text_red {
@@ -610,17 +639,26 @@ body {
     border-top-left-radius: 2%;
 }
 
+/* Shadow */
+.shadowFluid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Font */
 .fw_b {
     font-weight: bold;
 }
 
+.fs_00 {
+    font-size: 0.3em;
+} 
+
 .fs_0 {
-    font-size: 0.6;
+    font-size: 0.6em;
 } 
 
 .fs_1 {
-    font-size: 0.8;
+    font-size: 0.8em;
 } 
 
 .fs_2 {

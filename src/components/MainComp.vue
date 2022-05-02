@@ -1,101 +1,128 @@
 <template>
 
   <div>
-    
-    <div class="text_center p_50">
-        <span class="text_uppercase">start learning coding languages</span>
-        <h2 class="text_capital fs_8">build your dream <span class="text_uppercase text_jungle">today</span></h2>
-    </div>
 
-    <div id="sec-1" class="container-default d_flex justify_between">
-        <div class="flexColAJCenter">
-            <img class="" src="../assets/img/work-element/home-5-image-box-01.png" alt="ideas">
-            <h4 class="text_capital text_center fs_4">idea discussion</h4>
-            <p class="text_center fs_2">
-                Get teamed up with the specialist who
-                work and teach coding for years at
-                famous universities.
-            </p>
-            <h5 class="text_mulled-wine text_center fs_2" >Start now <i class="text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
-        </div>
-        <div class="flexColAJCenter">
-            <img src="../assets/img/work-element/home-5-image-box-02.png" alt="web">
-            <h4 class="text_capital text_center fs_4">web development</h4>
-            <p class="text_center fs_2">
-                Learn to start building a webpage from scratch.
-                You decide your own pace, course and speed.
-            </p>
-            <h5 class="text_mulled-wine text_center fs_2" >Start now <i class="text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
-        </div>
-        <div class="flexColAJCenter">
-            <img src="../assets/img/work-element/home-5-image-box-03.png" alt="systems">
-            <h4 class="text_capital text_center fs_4">system administration</h4>
-            <p class="text_center fs_2">
-                Learners are encouraged to study the mechanism and structure of system
-                administration.  
-            </p>
-            <h5 class="text_mulled-wine text_center fs_2" >Start now <i class="text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
-        </div>
-        <div class="flexColAJCenter">
-            <img src="../assets/img/work-element/home-5-image-box-04.png" alt="graphics">
-            <h4 class="text_capital text_center fs_4">graphic design</h4>
-            <p class="text_center fs_2">
-                Have a passion for graphics and arts?
-                Show your talents with confidence and 
-                self-assertiveness.
-            </p>
-            <h5 class="text_mulled-wine text_center fs_2" >Start now <i class="text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
-        </div>
-    </div>
+    <div class="bg-g-gray">
 
-    <div class="container-default flexBetween_2 p-y-50 ">
-        <div>
-            <img src="../assets/img/work-element/about-us-03-image-01.png" alt="">
+        <div class="text_center p_50">
+            <span class="text_uppercase">start learning coding languages</span>
+            <h2 class="text_capital fs_8">build your dream <span class="text_uppercase text_jungle">today</span></h2>
         </div>
-        <div class="d_flex flex_col w_50">
-            <div class="text_start">
-                <span class="text_uppercase">dream with <span class="fw_b">maxcoach</span></span>
-                <h2 class="text_capital fs_8">construct a <span class="text_capital text_jungle">stunning</span> career perspective</h2>
+
+        <div id="sec-1" class="container-default d_flex justify_between">
+            <div class="flexColAJCenter">
+                <img class="" src="../assets/img/work-element/home-5-image-box-01.png" alt="ideas">
+                <h4 class="text_capital text_center fs_4">idea discussion</h4>
+                <p class="text_center fs_2">
+                    Get teamed up with the specialist who
+                    work and teach coding for years at
+                    famous universities.
+                </p>
+                <h5 class="start text_mulled-wine text_center fs_2" >Start now <i class="start text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
             </div>
-            <div class="justify_start">
-                <div class=" dropdown">
-                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
-                        <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
-                    </h4>
-                    <div class="dropdown-content">
-                        <p>
+            <div class="flexColAJCenter">
+                <img src="../assets/img/work-element/home-5-image-box-02.png" alt="web">
+                <h4 class="text_capital text_center fs_4">web development</h4>
+                <p class="text_center fs_2">
+                    Learn to start building a webpage from scratch.
+                    You decide your own pace, course and speed.
+                </p>
+                <h5 class="start text_mulled-wine text_center fs_2" >Start now <i class="start text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
+            </div>
+            <div class="flexColAJCenter">
+                <img src="../assets/img/work-element/home-5-image-box-03.png" alt="systems">
+                <h4 class="text_capital text_center fs_4">system administration</h4>
+                <p class="text_center fs_2">
+                    Learners are encouraged to study the mechanism and structure of system
+                    administration.
+                </p>
+                <h5 class="start text_mulled-wine text_center fs_2" >Start now <i class="start text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
+            </div>
+            <div class="flexColAJCenter">
+                <img src="../assets/img/work-element/home-5-image-box-04.png" alt="graphics">
+                <h4 class="text_capital text_center fs_4">graphic design</h4>
+                <p class="text_center fs_2">
+                    Have a passion for graphics and arts?
+                    Show your talents with confidence and
+                    self-assertiveness.
+                </p>
+                <h5 class="start text_mulled-wine text_center fs_2" >Start now <i class="start text_mulled-wine fa-solid fa-arrow-right-long"></i></h5>
+            </div>
+        </div>
+
+        <div class="container-default flexBetween_2 p-y-50 ">
+            <div>
+                <img src="../assets/img/work-element/about-us-03-image-01.png" alt="">
+            </div>
+            <div class="d_flex flex_col w_50">
+                <div class="text_start">
+                    <span class="text_uppercase">dream with <span class="fw_b">maxcoach</span></span>
+                    <h2 class="text_capital fs_8">construct a <span class="text_capital text_jungle">stunning</span> career perspective</h2>
+                </div>
+                <div class="justify_start">
+                    
+                    <!-- Paragrafo Dropdown -->
+                    <div class="bg-custom-white p_10 flexRowWrap align_center" style="width: 450px" v-if="isActive">
+                        <h4 class="b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                        </h4>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                    </div>    
+                    <div v-else-if="active">
+                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                        </h4>
+                        <p class="p_20 b_rounded_1">
                             MaxCoach supports the act of teaching and learning on multiple
                             platforms like online or offline via meterial downloads.
                             We know things aren't supposed to be devoured in a short time, you
                             can always access our knowledge base from any device.
                         </p>
-                    </div>
-                </div>
-                <div class=" dropdown">
-                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
-                        <span class="text_capital">multiple course partecipation </span>at the <span class="text_capital">same time</span>
-                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
-                    </h4>
-                    <div class="dropdown-content">
-                        <p>
-                            
+                    </div> 
+                    
+
+                    <div class="bg-custom-white p_10 flexRowWrap align_center m_y_40" style="width: 450px" v-if="isActive">
+                        <h4 class="b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                        </h4>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                    </div>    
+                    <div v-else-if="active">
+                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                        </h4>
+                        <p class="p_20 b_rounded_1">
+                            MaxCoach supports the act of teaching and learning on multiple
+                            platforms like online or offline via meterial downloads.
+                            We know things aren't supposed to be devoured in a short time, you
+                            can always access our knowledge base from any device.
                         </p>
-                    </div>
-                </div>
-                <div class=" dropdown">
-                    <h4 id="drop" class="text_white bg-jungle-green b_rounded_1">
-                        <span class="text_capital">track study progress & deliver prompt feedback </span>
-                        <i class="text_white p_s_20 fa-solid fa-circle-minus"></i>
-                    </h4>
-                    <div class="dropdown-content">
-                        <p>
-                            
+                    </div> 
+     
+
+                    <div class="bg-custom-white p_10 flexRowWrap align_center" style="width: 450px" v-if="isActive">
+                        <h4 class="b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                        </h4>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                    </div>    
+                    <div v-else-if="active">
+                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
+                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                        </h4>
+                        <p class="p_20 b_rounded_1">
+                            MaxCoach supports the act of teaching and learning on multiple
+                            platforms like online or offline via meterial downloads.
+                            We know things aren't supposed to be devoured in a short time, you
+                            can always access our knowledge base from any device.
                         </p>
-                    </div>
+                    </div> 
+
                 </div>
             </div>
-            
         </div>
     </div>
 
@@ -117,10 +144,10 @@
                 <span class="fs_7 text_jungle fw_b">100%</span>
                 <div class="text_uppercase fw_b">satisfaction rate</div>
             </div>
-            
+
         </div>
     </div>
-    
+
     <div id="sec-2">
 
         <div class="container-default">
@@ -132,11 +159,11 @@
 
             <ul class="listTypeNone flexRowWrap">
                 <li class="card">
-                
+
                     <div id="image_1" class="imageCard b_top_left_right p_relative">
                         <h5 class="p_absolute b_rounded_1 bg-jungle-green m_t_0 fw_b text_white p_10" style="top: 0; right: 0; "><span class="fs_3">$40</span>.00</h5>
                     </div>
-                    
+
                     <div class="container-default-2">
                         <div class="d_flex align_center p_t_10">
                             <img class="b_rounded_5" src="../assets/img/work-element/73ee246daf47502812ccefc84bf02898.jpeg" alt="Blanche Fields">
@@ -231,8 +258,8 @@
                 </li>
             </ul>
             <div class="m_70 flexRowWrap p_b_70">
-                <button class="p-y-15 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
-                        style="cursor: pointer;">View all courses 
+                <button class="btt p-y-15 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
+                        style="cursor: pointer;">View all courses
                         <i class="vertical_middle p_s_5 fa-solid fa-arrow-right-long"></i>
                 </button>
             </div>
@@ -266,14 +293,14 @@
                     <span>Get the desired certificate delivered at house</span>
                 </li>
                 <li class="p-y-30">
-                    <button class="p-y-20 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                    <button class="btt p-y-20 p-x-50 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                             style="cursor: pointer;">Get started for free</button>
                 </li>
             </ul>
         </div>
         <div  class="flexBetween_2 align_end p_relative">
             <div id="img-sec-3" class="" >
-               
+
             </div>
             <div class="align_self_center p_t_60">
                 <img src="../assets/img/work-element/maxcoach-shape-05.png" alt="">
@@ -292,7 +319,7 @@
                 <img style="padding-bottom: 70px" src="../assets/img/work-element/maxcoach-shape-01.png" alt="">
             </div>
             <div style="margin-left: -50px" id="img-sec-3" class="" >
-            
+
             </div>
             <div class="align_self_center p_t_60">
                 <img src="../assets/img/work-element/maxcoach-shape-07.png" alt="">
@@ -311,19 +338,19 @@
             <ul id="ul-check-sec-3" class="flexColWrap">
                 <li class="p-y-10">
                     <p>
-                        Save lessons for later and revise or write notes at any 
+                        Save lessons for later and revise or write notes at any
                         time and on multiple devices on your way.
-                        Never interfere with activities of enjoyment or 
+                        Never interfere with activities of enjoyment or
                         other precious moments.
                     </p>
                 </li>
                 <li class="p-y-30">
-                    <button class="p-y-20 p-x-50 text_capital b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                    <button class="btt p-y-20 p-x-50 text_capital b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                             style="cursor: pointer;">downoload our app</button>
                 </li>
             </ul>
         </div>
-        
+
     </div>
     <div id="sec-3-part-3">
         <div class="container-default-1 p-y-10">
@@ -332,7 +359,7 @@
                 <h2 class="text_capital fs_8 fw_b">upcoming <span class="text_jungle text_capital">events</span></h2>
             </div>
             <ul id="ul-events-sec-3" class="flexRowWrap">
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> Texas, US</span>
@@ -341,12 +368,12 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">22</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">nov</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
                 </li>
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> New York, US</span>
@@ -355,12 +382,12 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">10</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">oct</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
                 </li>
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> Hamburg, Germany</span>
@@ -369,12 +396,12 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">23</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">nov</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
                 </li>
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> Illinois, US</span>
@@ -383,12 +410,12 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">15</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">dec</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
                 </li>
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> Illinois, US</span>
@@ -397,12 +424,12 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">22</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">jul</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
                 </li>
-                <li class="flexBetween m_10 p-y-20">
+                <li class="hovCard flexBetween m_10 p-y-20">
                     <div class="container-default-2 flexBetween">
                         <div>
                             <span><i class="fa-solid fa-location-dot m_e_5"></i> Dubai</span>
@@ -411,7 +438,7 @@
                         <div class="flexColWrap align_center">
                             <span class="text_uppercase fw_b fs_7 text_jungle">12</span>
                             <span class="text_uppercase m_y_5 fs_0 fw_b">aug</span>
-                            <button class="p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                            <button class="btt p-y-10 p-x-40 b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                     style="cursor: pointer;">Get ticket</button>
                         </div>
                     </div>
@@ -419,8 +446,8 @@
 
                 <div class="p_t_50 p_b_200">
                     <h3>
-                        Exited about our event? <span class="text_jungle"> View all events </span>
-                        <i class="text_jungle fa-solid fa-arrow-right-long"></i>
+                        Exited about our event? <span class="text_jungle" style="cursor: pointer"> View all events </span>
+                        <i class="text_jungle fa-solid fa-arrow-right-long" style="cursor: pointer"></i>
                     </h3>
                 </div>
             </ul>
@@ -433,7 +460,7 @@
                 <span class="text_uppercase">people are praising maxcoach</span>
                 <h2 class="fs_8 fw_b">What make they <span class="text_jungle">love us?</span></h2>
             </div>
-            
+
             <SlickComp/>
 
             <div class="text_center p_t_100">
@@ -445,7 +472,7 @@
                     </div>
                     <div>
                         <h2 class="fs_8 fw_b">You can be your own guiding star with our help! </h2>
-                        <button class="p-y-20 p-x-50 text_capital b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2" 
+                        <button class="btt p-y-20 p-x-50 text_capital b_none b_rounded_1 bg-jungle-green text_white fw_b fs_2"
                                 style="cursor: pointer;">Get started now</button>
                     </div>
                     <div class="p_t_150">
@@ -453,7 +480,7 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
 </div>
 
@@ -466,6 +493,34 @@ export default {
   name: 'MainComp',
   components: {
       SlickComp,
+  },
+
+  data() {
+      return {
+          active: false,
+          isActive: true,
+      }
+  },
+
+  methods: {
+      getShowAct(index) {
+          console.log(index);
+        if(!this.active == this.active){
+            this.active = true;
+        }  else {
+            this.active = false
+        }
+    },
+
+    getShowIsAct(i) {
+        console.log(i)
+        if(!this.isActive == this.isActive){
+            this.isActive = true;
+        }  else {
+            this.isActive = false
+        }
+    },
+
   }
 }
 </script>
@@ -497,10 +552,19 @@ export default {
         margin: 10px;
     }
 
+    .card:hover {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
     .imageCard {
         width: 320px;
         height: 200px;
         background-size: cover;
+    }
+
+    .btt:hover {
+        background-color: $mulled-wine;
     }
 
     #image_1 {
@@ -555,8 +619,18 @@ export default {
 
     #sec-3-part-4 {
         background-color: $g-gray;
-        
+
     }
-   
+
+    .start:hover {
+        color: $jungle-green;
+    }
+
+    .hovCard:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-left: 4px solid $jungle-green;
+        border-left-style: inset;
+
+    }
 
 </style>

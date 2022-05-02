@@ -9,8 +9,8 @@
         </div>
 
         <ul class="listTypeNone d_flex flex_row align_center">
-            <li class="d_flex text_capital flex_row p-x-10 dropdown">
-                <a class="text_decoration p-x-5 align_self_center" href="#">home</a>
+            <li class="d_flex text_capital flex_row p-x-10 dropdown" v-for="(el,index) in navBar" :key="index">
+                <a class="text_decoration p-x-5 align_self_center" href="#">{{el}}</a>
                 <i class="fa-solid fa-chevron-down"></i>
                 <div class="dropdown-content">
                     <a href="#">link</a>
@@ -18,56 +18,13 @@
                     <a href="#">link</a>
                 </div>
             </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center dropdown">
-                <a class="text_decoration p-x-5" href="#">pages</a>  
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="dropdown-content">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center dropdown">
-                <a class="text_decoration p-x-5" href="#">courses</a>  
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="dropdown-content">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center dropdown">
-                <a class="text_decoration p-x-5" href="#">features</a>  
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="dropdown-content">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center dropdown">
-                <a class="text_decoration p-x-5" href="#">blog</a>  
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="dropdown-content">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center dropdown">
-                <a class="text_decoration p-x-5" href="#">shop</a>  
-                <i class="fa-solid fa-chevron-down"></i>
-                <div class="dropdown-content">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                </div>
-            </li>
-            <li class="d_flex text_capital flex_row p-x-10 align_center">
-                <i id="cart" class="fa-solid fa-cart-shopping"></i>
+            
+            <li class="d_flex text_capital flex_row p-x-10 align_center p_relative">
+                <img style="width: 25px;height: 25px;cursor: pointer;" src="../assets/Icons/icons8-carrello-della-spesa-32.png" alt="">
+               <span class="bg-jungle-green p_absolute fs_0 text_white b_rounded_circle" style="padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;margin-top: -20px;margin-left: 20px">0</span>
             </li>
             <li class="d_flex text_capital flex_row p-x-10 align_center">  
-                <i id="user" class="fa-solid fa-user"></i>
+                <img style="width: 25px;height: 25px;cursor: pointer" src="../assets/Icons/icons8-utente-uomo-cerchiato-32.png" alt="">
             </li>
             <li id="search" class="d_flex text_capital flex_row p-x-10 align_center b_rounded_1">
                 <input type="text" placeholder="Search..." class="b_none">
@@ -88,7 +45,7 @@
                     you've got our assistance and help.
                 </p>
                 <button id="e-book" 
-                        class="b_none b_rounded_1 text_white fs_1"><i id="e-book-icon" class="fa-solid fa-download p_e_10"></i> 
+                        class="hov b_none b_rounded_1 text_white fs_1"><i id="e-book-icon" class="fa-solid fa-download p_e_10"></i> 
                         Download free E-book
                 </button>
             </div>
@@ -112,6 +69,17 @@ export default {
   name: 'HeaderComp',
   components: {
     
+  },
+
+  data() {
+      return {
+          navBar: [ 'home',
+                    'pages',
+                    'courses',
+                    'features',
+                    'blog',
+                    'shop'],
+      }
   }
 }
 </script>
@@ -167,6 +135,10 @@ export default {
         cursor: pointer;
     }
 
+    #e-book:hover {
+        background-color: $mulled-wine;
+    }
+
     #e-book-icon {
         font-size: 1em;
         color: $white;
@@ -175,6 +147,14 @@ export default {
     .hero {
         height: 100px;
         width: 500px;
+    }
+
+    .hov:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .hovText:hover {
+        text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
  
 

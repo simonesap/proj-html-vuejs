@@ -46,33 +46,17 @@
     </div>
      
      <div>
-         <div class=" text_center">
-            <span class="text_capital d_inline vertical_middle">
-                
-                
-            </span>
-            <span class="text_end vertical_middle d_inline">
-                
-            </span>
-        </div>
-
         <div class="p-y-50 flexBetween">
             <div class="colF"></div>
-            <div class="colF">
+            <div class="colF text_capital">
                 <img class="vertical_middle" src="../assets/Icons/icons8-diritto-d'autore-16.png" alt=""> 
                 2020 maxcoach. all rights reserved
             </div>
             <div class="colF justify_self_end p_20">
-                <a href="#" class="fa-solid fa-arrow-up p_15 fs_3 text_white b_rounded_circle bg-jungle-green"></a>
+                <a href="#" class="btt fa-solid fa-arrow-up p_15 fs_3 text_white b_rounded_circle bg-jungle-green"></a>
             </div>
-            
         </div>
-        
-            
-      
      </div>
-    
-
   </div>
 
 </template>
@@ -153,6 +137,10 @@ export default {
 
     #colF {
         flex-basis: calc((100% / 3) - 15px);
+    }
+
+    .btt:hover {
+        background-color: $mulled-wine;
     }
 
 </style>

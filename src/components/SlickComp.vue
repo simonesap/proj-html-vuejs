@@ -46,7 +46,7 @@ export default {
                 slidesToScroll: 1,
                 autoplay: true,
                 arrows: false,
-                autoplaySpeed: 5000,
+                autoplaySpeed: 3000,
                 pauseOnFocus: true,
                 pauseOnHover: true,
                 pauseOnDotsHover: true,
