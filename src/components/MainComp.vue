@@ -59,69 +59,12 @@
                     <span class="text_uppercase">dream with <span class="fw_b">maxcoach</span></span>
                     <h2 class="text_capital fs_8">construct a <span class="text_capital text_jungle">stunning</span> career perspective</h2>
                 </div>
-                <div class="justify_start">
-                    
-                    <!-- Paragrafo Dropdown -->
-                    <div class="bg-custom-white p_10 flexRowWrap align_center" style="width: 450px" v-if="isActive">
-                        <h4 class="b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                        </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
-                    </div>    
-                    <div v-if="active">
-                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
-                        </h4>
-                        <p class="p_20 b_rounded_1">
-                            MaxCoach supports the act of teaching and learning on multiple
-                            platforms like online or offline via meterial downloads.
-                            We know things aren't supposed to be devoured in a short time, you
-                            can always access our knowledge base from any device.
-                        </p>
-                    </div> 
-                    
 
-                    <div class="bg-custom-white p_10 flexRowWrap align_center m_y_40" style="width: 450px" v-if="isActive">
-                        <h4 class="b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                        </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
-                    </div>    
-                    <div v-if="active">
-                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
-                        </h4>
-                        <p class="p_20 b_rounded_1">
-                            MaxCoach supports the act of teaching and learning on multiple
-                            platforms like online or offline via meterial downloads.
-                            We know things aren't supposed to be devoured in a short time, you
-                            can always access our knowledge base from any device.
-                        </p>
-                    </div> 
-     
-
-                    <div class="bg-custom-white p_10 flexRowWrap align_center" style="width: 450px" v-if="isActive">
-                        <h4 class="b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                        </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
-                    </div>    
-                    <div v-if="active">
-                        <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
-                            <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
-                        </h4>
-                        <p class="p_20 b_rounded_1">
-                            MaxCoach supports the act of teaching and learning on multiple
-                            platforms like online or offline via meterial downloads.
-                            We know things aren't supposed to be devoured in a short time, you
-                            can always access our knowledge base from any device.
-                        </p>
-                    </div> 
-
+                <!-- Paragrafo cin effetto al click -->
+                <div v-for="i in 3" :key="i">
+                    <ShowHideComp/>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -488,18 +431,21 @@
 
 <script>
 import SlickComp from './SlickComp.vue'
+import ShowHideComp from './ShowHideComp.vue'
 
 export default {
   name: 'MainComp',
   components: {
       SlickComp,
+      ShowHideComp
   },
 
   data() {
       return {
-          active: false,
-          isActive: true,
-          counter: 0,
+        
+        active: false,
+        isActive: true,
+        counter: 0,
       }
   },
 
@@ -524,6 +470,16 @@ export default {
             this.isActive = false;
             this.active = true;
         } return
+    },
+
+     // Funzione che riconosce l'index dell'elemento ciclato
+    // e al click sul tag <li> cambia l'index,
+    // e inserendola nel tag img della chat di destra
+    // mi restituisce l'indice cliccato stampandolo a video
+    lookIndex: function(indexClick){
+        console.log(indexClick);
+        this.counter = indexClick;
+        console.log(`l'index cliccato è: ${this.counter}`);
     },
 
   }

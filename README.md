@@ -258,3 +258,55 @@ export default {
 
 </style>
 ```
+
+# 6° Utilizzare vue-slick-carousel nel progetto
+
+Per utilizzarlo dobbiamo importare vue-slick-carousel tramite npm da terminale con questo comando:
+
+``` 
+# npm 
+npm i vue-slick-carousel
+
+# yarn 
+yarn add vue-slick-carousel
+
+# bit 
+bit import gsshop.vue-slick-carousel/vue-slick-carousel
+
+# cdn 
+https://unpkg.com/vue-slick-carousel
+```
+
+Dopo l'installazione bisogna importarlo nel componente di utilizzo nella sezione script
+in questo modo:
+
+``` javascript
+<template>
+  <div>
+    <VueSlickCarousel :arrows="true" :dots="true">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </VueSlickCarousel>
+  </div>
+</template>
+ 
+<script>
+  import VueSlickCarousel from 'vue-slick-carousel'
+  
+ 
+  export default {
+    name: 'MyComponent',
+    components: { VueSlickCarousel },
+  }
+</script> 
+
+<style>
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
+</style>
+```
+...
