@@ -2,7 +2,7 @@
 
   <div class="">
 
-    <VueSlickCarousel class="" :key="el" :arrows="true" :dots="true" v-bind="slickOptions">
+    <VueSlickCarousel class="" :arrows="true" :dots="true" v-bind="slickOptions">
       <div v-for="el in 4" :key="el">
      
         <ul id="slick-ul-1" class="flexBetween align_center">

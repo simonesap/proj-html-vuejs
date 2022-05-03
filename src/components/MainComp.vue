@@ -66,12 +66,12 @@
                         <h4 class="b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
                         </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
                     </div>    
-                    <div v-else-if="active">
+                    <div v-if="active">
                         <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
                         </h4>
                         <p class="p_20 b_rounded_1">
                             MaxCoach supports the act of teaching and learning on multiple
@@ -86,12 +86,12 @@
                         <h4 class="b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
                         </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
                     </div>    
-                    <div v-else-if="active">
+                    <div v-if="active">
                         <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
                         </h4>
                         <p class="p_20 b_rounded_1">
                             MaxCoach supports the act of teaching and learning on multiple
@@ -106,12 +106,12 @@
                         <h4 class="b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
                         </h4>
-                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(index)"></i>
+                        <i class="p_s_20 fa-solid fa-circle-plus fs_3 pewter" @click="getShowAct(active)"></i>
                     </div>    
-                    <div v-else-if="active">
+                    <div v-if="active">
                         <h4 class="bg-jungle-green text_white p_20 b_rounded_1">
                             <span class="text_capital">multiple platforms supported</span> for <span class="text_capital">teaching & studying</span>
-                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(i)"></i>
+                            <i class="p_s_70 fa-solid fa-circle-minus" @click="getShowIsAct(isActive)"></i>
                         </h4>
                         <p class="p_20 b_rounded_1">
                             MaxCoach supports the act of teaching and learning on multiple
@@ -499,26 +499,31 @@ export default {
       return {
           active: false,
           isActive: true,
+          counter: 0,
       }
   },
 
   methods: {
       getShowAct(index) {
           console.log(index);
-        if(!this.active == this.active){
+        if(!this.active == true & !this.isActive == false){
             this.active = true;
+            this.isActive = false;
         }  else {
             this.active = false
-        }
+            this.isActive = true;
+        } return
     },
 
     getShowIsAct(i) {
         console.log(i)
-        if(!this.isActive == this.isActive){
+        if(this.isActive == false & this.active == true){
             this.isActive = true;
+            this.active = false;
         }  else {
-            this.isActive = false
-        }
+            this.isActive = false;
+            this.active = true;
+        } return
     },
 
   }
