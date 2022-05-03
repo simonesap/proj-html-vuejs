@@ -71,9 +71,8 @@ export default {
         } return
     },
 
-     // Funzione che riconosce l'index dell'elemento ciclato
-    // e al click sul tag <li> cambia l'index,
-    // e inserendola nel tag img della chat di destra
+    // Funzione che riconosce l'index dell'elemento ciclato
+    // e al click sul tag cambia l'index,
     // mi restituisce l'indice cliccato stampandolo a video
     lookIndex: function(indexClick){
         console.log(indexClick);

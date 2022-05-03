@@ -2,16 +2,19 @@
 
 ## Project setup
 ```
-
+```
 # 1° Creare il progetto con Vue cli
+```
+
 Dopo aver creato la repository vuota su github, la cloniamo sul pc e apriamo la cartella con vs code.
 Utilizzando il terminale nella cartella del progetto il comando Node:
 
 ```
 vue create .
 ```
-
+```
 # 2° Importare Bootstrap 5 (opzionale)
+```
 Per importarlo dobbiamo lanciare da terminale due comandi:
 
 ```
@@ -36,9 +39,11 @@ Dentro la sezione "style" scriviamo:
 
 Da qui in poi possiamo usare le classi di Bootstrap 5
 
+```
 # 3° Creiamo un componente
-Prima cosa creare un file all'interno della cartella "components", il nome del file deve essere con la prima lettera maiuscola e di due
-parole in camelcase,
+```
+Prima cosa creare un file all'interno della cartella "components", il nome del file deve essere con la prima 
+lettera maiuscola e di due parole in camelcase,
 esempio: HeaderComp.vue
 
 La struttura del componente deve essere all'inizio la seguente:
@@ -98,6 +103,7 @@ Utilizziamo il componente dentro il template di app.vue in questo modo:
 ```
 
 # 4° Utilizzare Axios nel progetto
+```
 
 Per utilizzarlo dobbiamo importare Axios tramite npm da terminale con questo comando:
 
